@@ -1,0 +1,58 @@
+{
+    "basics": {
+      "name": "Paranthaban M",
+      "email": "parantha380@gmail.com",
+      "phone": 9080986871,
+      "degree": "B.com",
+      "location": {
+        "address": "38/85, vinayagapuram, 2nd street, Arumbakkam",
+        "postalCode": 600 106,
+        "city": "Chennai",
+        "country": "India",
+        "state": "Tamil nadu"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "Paranthaban M",
+          "url": "www.linkedin.com/in/paranthaban"
+        }
+      ]
+    },
+    "work": [
+      {
+        "company": "Novac Technology Solutions pvt ltd",
+        "position": "Associate",
+        "startDate":"2021-09-06",
+        "endDate": "2023-04-13",
+        "highlights": [
+          "I got a best performer award in the month of sep 2022."
+        ]
+      }
+    ],
+
+    "education": [
+      {
+        "institution": "Guru Nanak College",
+        "area": "B.com - General",
+        "studyType": "Regular",
+        "startYear": 2017,
+        "endYear": 2020,
+        "cgpa": 7.3,
+      }
+    ],
+    "languages": [
+      {
+        "language": "'Tamil', 'English'",
+        "fluency": "'Tamil'"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Sports",
+        "keywords": [
+          "('Cricket', 'Football', 'carrom', 'chess')"
+        ]
+      }
+    ]
+  }
