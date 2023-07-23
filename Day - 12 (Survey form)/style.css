@@ -1,0 +1,43 @@
+.container {
+  max-width: 550px;
+  margin: auto;
+  border: 1px groove lightgray;
+  padding: 10px 100px;
+}
+.space {
+  margin-right: 20px;
+}
+.required {
+  color: red;
+}
+
+.checked {
+  color: orange;
+}
+
+td {
+  text-align: center;
+}
+.table-dark {
+  background-color: lightgray;
+}
+table {
+  border: none;
+}
+th,
+td {
+  padding: 4px;
+}
+.length {
+  width: 65%;
+}
+
+.button {
+  padding: 10px 15px;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  font-size: large;
+}
+
+

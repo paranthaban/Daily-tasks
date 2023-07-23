@@ -1,0 +1,12 @@
+.middle {
+    margin-top: 300px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+  }
+  
+.gradiant {
+    background: linear-gradient(to left, mediumseagreen, pink);
+}
