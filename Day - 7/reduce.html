@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>XMLHttpRequest Example</title>
+  </head>
+  <body>
+    <script>
+      //Create a new XMLHttpRequest object
+      var xhr = new XMLHttpRequest();
+
+      //Define HTTP method and URL
+      var method = "GET";
+      var url = "https://restcountries.com/v3.1/all";
+
+      //Open the request
+      xhr.open(method, url);
+      var population = [];
+      function getPopValue(countries) {
+        for (var i = 0; i < countries.length; i++) {
+          population.push(countries[i].population);
+        }
+      }
+      
+      function totalPop(total, num) {
+        total = total + num;
+        return total;
+      }
+
+      xhr.onload = function () {
+        debugger;
+        var countries;
+
+        if (xhr.status === 200) {
+          countries = JSON.parse(xhr.responseText);
+          getPopValue(countries);
+
+          var res = population.reduce(totalPop, 0);
+          console.log(res);
+        } else {
+          //Request failed
+          console.log("Request failed", xhr.status);
+        }
+      };
+
+      //send the request
+      xhr.send();
+    </script>
+  </body>
+</html>
