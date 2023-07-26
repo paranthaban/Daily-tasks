@@ -1,0 +1,22 @@
+body,
+html {
+    background-image: linear-gradient(rgb(344, 131, 19), rgb(77, 201, 77));
+    height: 100%;
+}
+
+#display {
+    color: #f3f8fa;
+    font-weight: bolder;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  #count {
+    color: rgb(53, 56, 205);
+    font-weight: bolder;
+    font-size: 100px;
+    text-decoration: solid;
+    padding: 30px;
+  }
+  
