@@ -1,0 +1,248 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background: rgb(172, 49, 184);
+    background: linear-gradient(
+      0deg,
+      rgb(211, 97, 221) 0%,
+      rgba(22, 168, 159, 0.589) 100%
+    );
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    display: flex;
+    height: 180vh;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 800px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px white;
+  }
+  
+   select {
+    width: 350px;
+    height: 35px;
+    border-radius: 7px;
+  }
+
+  .radio-category {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  #radio-options {
+    display: flex;
+    flex-direction: row;
+    padding-top: 55px;
+  }
+
+  .form-title {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 5px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: solid 1px white;
+    margin-bottom: 15px;
+    padding-top: 30px;
+  }
+  
+  #description {
+    color: white;
+    font-size: larger;
+  }
+  .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+  
+  .user-input-box:nth-child(2n) {
+    justify-content: end;
+  }
+  
+  .user-input-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+  }
+  
+  .user-input-box label {
+    width: 95%;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+    padding-bottom: 10px;
+  }
+  
+  .user-input-box input {
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 0 10px;
+  }
+  
+  .radio-box {
+    color: rgb(96, 255, 239);
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid white;
+  }
+  
+  .radio-category {
+    margin: 15px 0;
+    color: white;
+  }
+  
+  .radio-category label {
+    padding: 0 20px 0 5px;
+    font-size: larger;
+  }
+  
+  .radio-category label,
+  .radio-category input,
+  button {
+    cursor: pointer;
+  }
+  
+  #form button {
+    background-color: rgb(52, 222, 222);
+    color: black;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+  }
+  
+
+  #form button:hover {
+    background-color: rgb(177, 45, 171);
+  }
+  
+  #form button:focus {
+    color: rgb(60, 226, 226);
+  }
+
+  textarea{
+    border-radius: 7px;
+  }
+  /* .table th {
+    border: 1px solid hsl(0, 2%, 12%);
+    border-collapse: collapse;
+    color: white;
+  }
+  tbody{
+    color: white;
+  } */
+  #dataTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  #dataTable thead {
+    background-color: #f2f2f2;
+  }
+  #dataTable th{
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  #dataTable td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    color: white;
+  }
+  
+  .table-container table{
+    border: 1px solid gray;
+  }
+  @media (max-width: 350px) {
+    .container {
+      min-width: 200px;
+    }
+  
+    .user-input-box {
+      margin-bottom: 12px;
+      width: 100%;
+    }
+  
+    .user-input-box:nth-child(2n) {
+      justify-content: space-between;
+    }
+  
+    .radio-category {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+  
+    .form-group {
+      max-height: 500px;
+      overflow: auto;
+    }
+  
+    .form-group ::-webkit-scrollbar {
+      width: 800px;
+    }
+  }
+  
+  @media (max-width: 750px) {
+    .container {
+      min-width: 300px;
+    }
+  
+    .user-input-box {
+      margin-bottom: 12px;
+      width: 100%;
+    }
+  
+    .user-input-box:nth-child(2n) {
+      justify-content: space-between;
+    }
+  
+    .radio-category {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+  
+    .form-group {
+      max-height: 500px;
+      overflow: auto;
+    }
+  
+    .form-group ::-webkit-scrollbar {
+      width: 800px;
+    }
+  }
+
+
+
+
+  
