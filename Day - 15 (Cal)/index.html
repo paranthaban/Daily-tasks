@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1 id="title"><span class="heading">DOM Calculator</span></h1>
+    <p id="description">This DOM Calculator project is a web-based calculator built using HTML, CSS, and JavaScript. The calculator has a simple and user-friendly interface where users can perform basic arithmetic operations such as addition, subtraction, multiplication, and division. It also supports percentage calculations and decimal point input.
+        Additionally, the calculator has keyboard support, allowing users to input numbers using the keyboard. It restricts the input to only numbers and backspace for erasing.    
+        Overall, this DOM Calculator project serves as a basic example of using JavaScript to create interactive web applications that handle user input and perform simple calculations.
+    </p>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" placeholder="0" id="result">
+            <button id="clear" class="clear" onclick="Clear()" >Clear</button>
+            <button onclick="del()" id="delete">Del</button>
+            <button onclick="display('%')" id="%">%</button>
+            <button onclick="display('/')" id="/">/</button>
+            <button onclick="display('7')" id="7">7</button>
+            <button onclick="display('8')" id="8">8</button>
+            <button onclick="display('9')" id="9">9</button>
+            <button onclick="display('*')" id="*">*</button>
+            <button onclick="display('4')" id="4">4</button>
+            <button onclick="display('5')" id="5">5</button>
+            <button onclick="display('6')" id="6">6</button>
+            <button id="subtract" onclick="display('-')" >-</button>
+            <button onclick="display('1')" id="1">1</button>
+            <button onclick="display('2')" id="2">2</button>
+            <button onclick="display('3')" id="3">3</button>
+            <button id="add" onclick="display('+')">+</button>
+            <button onclick="display('.')" id=".">.</button>
+            <button onclick="display('0')" id="0">0</button>
+            <button id="equal" onclick="calculate()" class="equal">=</button>
+        </div>    
+    </div>
+
+    <div>
+        <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    </div>
+
+    <script src="script.js">
+    </script>    
+</body>
+</html>
