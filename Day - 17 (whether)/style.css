@@ -1,0 +1,52 @@
+h1 {
+  color: rgb(255, 241, 39);
+  padding-top: 20px;
+}
+
+body {
+  background-color: rgb(15, 14, 14);
+}
+.container {
+  box-sizing: border-box;
+}
+
+.card-header {
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  background: rgb(15, 254, 230);
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.column {
+  margin-bottom: 30px;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-Text {
+  text-align: center;
+  text-overflow: ellipsis;
+  font-size: x-large;
+  font-weight: bold;
+}
+.card {
+  padding: 50px;
+  padding-bottom: 0%;
+  background: linear-gradient(
+    to left,
+    rgb(145, 145, 145) 0%,
+    rgb(255, 255, 255) 100%
+  );
+}
+.cardbody {
+  background: rgb(93, 92, 92) !important;
+}
+img {
+  width: 150px;
+  height: 200px;
+}
+.row {
+  display: flex;
+  flex-wrap: row;
+}
